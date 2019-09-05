@@ -1,0 +1,48 @@
+.v1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: red;
+}
+
+.v2 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 200;
+    background-color: red;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.ulv {
+    overflow: hidden;
+    width: 150px;
+    float: Bottom;
+    overflow: hidden;
+    background-color: red;
+}
+
+.liv a {
+    padding: 14px 25px;
+}

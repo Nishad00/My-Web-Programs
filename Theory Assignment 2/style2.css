@@ -1,0 +1,74 @@
+.item1 {
+    width: 1200px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    background-color: antiquewhite;
+}
+
+.item2 {
+    border: 1px solid black;
+    width: 1175px;
+    height: 100px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    position: absolute;
+    background-color: aqua;
+}
+
+.item3 {
+    border: 1px solid black;
+    margin-top: 120px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 365px;
+    width: 200px;
+    position: absolute;
+    background-color: green;
+}
+
+.item4 {
+    border: 1px solid black;
+    margin-left: 220px;
+    margin-right: 10px;
+    height: 80px;
+    width: 965px;
+    margin-top: 120px;
+    position: absolute;
+    background-color: red;
+}
+
+.item5 {
+    border: 1px solid black;
+    margin-left: 220px;
+    margin-right: 10px;
+    margin-top: 210px;
+    height: 275px;
+    width: 250px;
+    position: absolute;
+    background-color: blue;
+}
+
+.item6 {
+    border: 1px solid black;
+    margin-left: 480px;
+    margin-right: 10px;
+    margin-top: 280px;
+    height: 204px;
+    width: 250px;
+    position: absolute;
+    background-color: yellow;
+}
+
+.item7 {
+    border: 1px solid black;
+    margin-left: 740px;
+    margin-right: 10px;
+    margin-top: 350px;
+    height: 135px;
+    width: 445px;
+    position: absolute;
+    background-color: purple;
+}
