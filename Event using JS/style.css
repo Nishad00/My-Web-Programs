@@ -1,0 +1,131 @@
+.header {
+    background-color: skyblue;
+    width: 100%;
+    height: 200px;
+    color: whitesmoke;
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+ul {
+    list-style-type: None;
+    margin: 0%;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    border-left: 25px solid red;
+    font-size: 24px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 25px;
+    text-decoration: None;
+}
+
+li a:hover {
+    background-color: red;
+    color: white;
+}
+
+.bottom {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background: #ECE9E6;
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.circle {
+    height: 30px;
+    width: 30px;
+    background-color: skyblue;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 80px;
+}
+
+#span1 {
+    background-color: blue
+}
+
+#span2 {
+    background-color: red
+}
+
+#span3 {
+    background-color: yellow
+}
+
+#span4 {
+    background-color: green
+}
+
+.end {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    margin-top: 350px;
+    color: whitesmoke;
+    padding: 5px;
+    border-bottom: 30px solid red;
+    font-size: 23px;
+}
+
+.inc1 {
+    /* border: 5px solid blue; */
+    width: 400px;
+    height: 290px;
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    margin-left: 10%;
+    margin-top: 5%;
+    box-shadow: 10px 10px 8px grey;
+}
+
+img {
+    width: 400px;
+    height: 290px;
+}
+
+.inc2 {
+    /* border: 5px solid blue; */
+    width: 750px;
+    height: 290px;
+    float: right;
+    padding-top: 15px;
+    margin-top: 5%;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10%;
+    overflow-wrap: break-word;
+    /* background-color: lightcyan; */
+    box-shadow: 10px 10px 8px grey;
+}
+
+a {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 15px 25px;
+}
+
+a:hover {
+    background-color: red;
+}
