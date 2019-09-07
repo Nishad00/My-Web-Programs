@@ -1,0 +1,90 @@
+.cal-btn,
+input[type=button] {
+    background-color: silver;
+    color: black;
+    width: 110px;
+    height: 50px;
+    border: 1px solid gray;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.main {
+    width: 900px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+#cal-parent {
+    width: 900px;
+}
+
+input[type=reset] {
+    font-size: 30px;
+    background-color: silver;
+    color: black;
+    width: 300px;
+}
+
+textarea {
+    background: black;
+    color: white;
+    font-size: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.cal-btn:hover {
+    background-color: black;
+}
+
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 500px;
+}
+
+.column {
+    display: table-cell;
+}
+
+#cal-clear {
+    width: 40px;
+}
+
+#cal-parent {
+    height: 1000px;
+}
+
+.main {
+    height: 700pc;
+}
+
+#cal-display-val {
+    height: 80px;
+    color: white;
+    text-align: right;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    border-top: 1px solid gray;
+    font-size: 48px;
+    background-color: #383838;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 12px;
+    border-radius: 7px 7px 0 0;
+}
+
+.cal-btn-operator {
+    background-color: orange;
+    color: white;
+}
+
+#cal-equals {
+    border-radius: 0 0 7px 0;
+}
+
+#cal-clear {
+    width: 325px;
+}

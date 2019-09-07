@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<div class="main">
+    <form action="" method="post" name="Form" id="form" onsubmit="nishad();">
+        <div id="cal-parent">
+            <div class="row">
+                <div class="column" id="cal-display-val"><textarea name="Inp" id="Inp" cols="20" rows="4"></textarea></div>
+            </div>
+            <div class="row">
+                <div class="cal-btn cal-clear column" id="cal-clear"> <input type="reset" value="AC"></div>
+                <!-- <div class="cal-btn column" id="cal-backspace"><input type="button" value="DEL"></div> -->
+                <div class="cal-btn cal-btn-opr column" id="cal-divide"><input type="button" value="/" onclick="Form.Inp.value += '/'"></div>
+            </div>
+            <div class="row">
+                <div class="cal-btn cal-btn-num column" id="cal-seven"><input type="button" value="7" onclick="Form.Inp.value += 7"></div>
+                <div class="cal-btn cal-btn-num column" id="cal-eight"><input type="button" value="8" onclick="Form.Inp.value += 8"></div>
+                <div class="cal-btn cal-btn-num column" id="cal-nine"><input type="button" value="9" onclick="Form.Inp.value += 9"></div>
+                <div class="cal-btn cal-btn-opr column" id="cal-mul"><input type="button" value="*" onclick="Form.Inp.value += '*'"></div>
+            </div>
+            <div class="row">
+                <div class="cal-btn cal-btn-num column" id="cal-four"><input type="button" value="4" onclick="Form.Inp.value += 4"></div>
+                <div class="cal-btn cal-btn-num column" id="cal-five"><input type="button" value="5" onclick="Form.Inp.value += 5"></div>
+                <div class="cal-btn cal-btn-num column" id="cal-six"><input type="button" value="6" onclick="Form.Inp.value += 6"></div>
+                <div class="cal-btn cal-btn-opr column" id="cal-minus"><input type="button" value="-" onclick="Form.Inp.value += '-'"></div>
+            </div>
+            <div class="row">
+                <div class="cal-btn cal-btn-num column" id="cal-one"><input type="button" value="1" onclick="Form.Inp.value += 1"></div>
+                <div class="cal-btn cal-btn-num column" id="cal-two"><input type="button" value="2" onclick="Form.Inp.value += 2"></div>
+                <div class="cal-btn cal-btn-num column" id="cal-three"><input type="button" value="3" onclick="Form.Inp.value += 3"></div>
+                <div class="cal-btn cal-btn-opr column" id="cal-plus"><input type="button" value="+" onclick="Form.Inp.value += '+'"></div>
+
+            </div>
+            <div class="row">
+                <div class="cal-btn column"></div>
+                <div class="cal-btn cal-btn-num column" id="cal-zero"><input type="button" value="0" onclick="Form.Inp.value += 0"></div>
+                <div class="cal-btn column" id="cal-decimal"><input type="button" value="." onclick="Form.Inp.value += '.'"></div>
+                <div class="cal-btn cal-btn-opr column" id="cal-equals"><input type="button" value="=" onclick="nishad();"></div>
+            </div>
+        </div>
+    </form>
+</div>
+<script>
+    function nishad() {
+        var n = document.getElementById("Inp").value;
+        var one = n.charAt(0);
+        var one = parseInt(one);
+        var op = n.charAt(1);
+        var sec = n.charAt(2);
+        var sec = parseInt(sec);
+
+        if (op == "+") {
+            var sum = one + sec;
+        }
+
+        if (op == "-") {
+            var sum = one - sec;
+        }
+
+        if (op == "*") {
+            var sum = one * sec;
+        }
+
+        if (op == "/") {
+            var sum = one / sec;
+        }
+        document.getElementById("Inp").value = sum;
+    }
+</script>
+
+</html>
