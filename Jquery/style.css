@@ -1,0 +1,26 @@
+body {
+    background-color: lightgrey;
+}
+
+.container {
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    margin-left: 500px;
+    margin-top: 50px;
+    padding-left: 40px;
+    padding-top: 50px;
+    background-color: whitesmoke;
+    box-shadow: 5px 10px grey;
+}
+
+input[type=text],
+select,
+input[type=date],
+button {
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    background-color: #3CBC8D;
+    color: white;
+}
